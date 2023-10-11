@@ -1,0 +1,202 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #444;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #bebbbb;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+section img {
+    max-width: 100%;
+}
+section h2 {
+    font-family:'Courier New', Courier, monospace;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Existing CSS styles */
+
+/* Add the following CSS for horizontal sections */
+.horizontal-section {
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    display: inline-block; /* Make sections inline to align them horizontally */
+    width: 300px; /* Set the width of each section */
+    vertical-align: top; /* Align sections to the top within their container */
+}
+/* Existing CSS styles */
+
+/* Add the following CSS for centering images within sections */
+.image-container {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 200px; /* Set the height of the image container (adjust as needed) */
+}
+
+.image-container img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    max-height: 100%; /* Ensure the image doesn't exceed its container */
+}
+
+
+
+/* Existing CSS styles */
+
+/* Add the following CSS to style the "Read More" button */
+.read-more-button {
+    display: inline-block;
+    background-color: #FF0000; /* Red background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Add padding for button size */
+    text-decoration: none; /* Remove default link underline */
+    border: none; /* Remove the button border */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Add a smooth transition */
+    margin-top: 10px; /* Add some margin space */
+}
+
+.read-more-button:hover {
+    background-color:#333; /* Darker red color on hover */
+}
+/* Existing CSS styles */
+
+/* Add the following CSS to style the social media container */
+.social-media {
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.social-media a {
+    display: block;
+    margin: 10px 0;
+}
+
+.social-media i {
+    font-size: 36px;
+    color: #333;
+    padding: 20px;
+
+   
+}
+/* Comment Section Styles */
+
+.comment-section {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.comment-section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.comments {
+    margin-top: 10px;
+}
+
+.comment {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.comment strong {
+    font-weight: bold;
+    color: #333;
+}
+
+.comment p {
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Comment Form Styles */
+
+#comment-form {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    position: relative;
+}
+
+#comment-form label,
+#comment-form textarea,
+#comment-form input {
+    display: inline;
+    margin: 10px 0;
+    margin-right: 30px;
+    bottom: 26%;
+
+}
+
+#comment-form button {
+    background-color: #333; /* Red button background */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+    bottom: 30%; /* Position the button at the bottom */
+    right: 35%; /* Position the button at the left */
+}
+#comment-form button:hover {
+    background-color: #FF0000;
+}
+
+
+
+
+
+
+
