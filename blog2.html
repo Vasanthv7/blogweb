@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Travel Blog</title>
+    <link rel="stylesheet" type="text/css" href="styles3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>My Travel Blog</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="horizontal-section">
+            <h2>sec1</h2>
+            <section id="featured-post">
+            <h2>Featured Post</h2>
+            <article>
+                <h3>Trip to Paris</h3>
+                <div class="image-container">
+                    <img src="C:\Users\vasan\Downloads\Eiffel-tower.webp"width="300", alt="Eiffel Tower">
+                </div>
+                <p class="content">it was a crisp autumn morning when I set foot in the City of Love. Paris had always
+                     </p>
+                     <a class="read-more-button" href="blog-post.html">Read More</a>    
+               <!-- <a href="blog-post.html">Read More</a>-->
+            </article>
+            </section>      
+        </section>
+        <section class="horizontal-section">
+            <h2>sec2</h2>
+            <section id="blog-post">
+            <h2>Recent Posts</h2>
+            <article>
+                <h3>Trip to Rome</h3>
+                <div class="image-container">
+                    <img src="C:\Users\vasan\Downloads\OIP.jfif"width="300" alt="Colosseum">
+                </div>    
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec urna sed lectus placerat facilisis.</p>
+                <a class="read-more-button" href="blog-post.html">Read More</a>
+            </article>
+            </section>
+            <!-- Add more blog posts here -->
+        </section>
+        <section class="horizontal-section">
+            <h2>Section 3</h2>
+            <p>This is the content of section 3.</p>
+           <!-- <div class="share-buttons">
+                <a href="#" class="share-button" data-network="facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="share-button" data-network="twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="share-button" data-network="instagram"><i class="fab fa-instagram"></i></a>
+            </div>-->
+            <a href="#"><i class="fa-solid fa-share-nodes" style="color: #000333;"></i></a> 
+        </section>
+        <div class="comment-section">
+            <h3>Comments</h3>
+            <div id="comments">
+                <!-- Comments will be displayed here -->
+            </div>
+            <form id="comment-form">
+                <label for="username">Your Name:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="comment">Your Comment:</label>
+                <textarea id="comment" name="comment" required></textarea>
+                <button type="submit">Submit Comment</button>
+            </form>
+        </div>
+    </main>
+    <aside class="social-media">
+        
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+    </aside>    
+    <footer>
+        <p>&copy; 2023 My Travel Blog</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
